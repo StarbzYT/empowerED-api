@@ -5,7 +5,7 @@ async function main(message) {
     messages: [
       {
         role: 'user',
-        content: `In 80 words, respond empathetically to this person with mental health struggles and use principles from Paulo Freire's Pedagogy of the Oppressed to offer practical solution(s) to their problems. Here's what they've said: ${message} `,
+        content: `In 90 words, respond empathetically to this person with mental health struggles and use principles from Paulo Freire's Pedagogy of the Oppressed to offer practical solution(s) to their problems. Here's what they've said: ${message} `,
       },
     ],
     model: 'gpt-3.5-turbo',
